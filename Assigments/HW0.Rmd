@@ -5,6 +5,9 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+
 ```
 
 
@@ -24,6 +27,10 @@ First, write a function called `simulate_prizedoor(nsims)` with the argument `ns
 
 ```{r}
 ## add your code here
+
+simulate_prizedoor <- function(x){
+ door <-  length(x)
+ return(door)}
 
 ```
 

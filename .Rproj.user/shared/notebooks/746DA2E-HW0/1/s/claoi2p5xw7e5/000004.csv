@@ -1,0 +1,4 @@
+"0","## add your code here"
+"0","simulate_prizedoor <- function(x){"
+"0"," door <-  length(x)"
+"0"," return(door)}"

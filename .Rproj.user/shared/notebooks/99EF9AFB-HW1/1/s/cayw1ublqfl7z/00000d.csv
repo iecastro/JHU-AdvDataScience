@@ -1,0 +1,34 @@
+"0","pop <- read_csv(""~/Desktop/JHU-AdvDataScience/data/nst-est2017-alldata.csv"") %>%
+  filter(NAME2 != c(""UNITED STATES"",""NORHTEAST REGION"", ""MIDWEST REGION"", ""SOUTH REGION"",
+                  ""WEST REGION"")) %>% select(NAME2,POPESTIMATE2015)
+"
+"2","Parsed with column specification:
+cols(
+  .default = col_integer(),
+  REGION = col_character(),
+  DIVISION = col_character(),
+  NAME = col_character(),
+  NAME2 = col_character(),
+  RBIRTH2011 = col_double(),
+  RBIRTH2012 = col_double(),
+  RBIRTH2013 = col_double(),
+  RBIRTH2014 = col_double(),
+  RBIRTH2015 = col_double(),
+  RBIRTH2016 = col_double(),
+  RBIRTH2017 = col_double(),
+  RDEATH2011 = col_double(),
+  RDEATH2012 = col_double(),
+  RDEATH2013 = col_double(),
+  RDEATH2014 = col_double(),
+  RDEATH2015 = col_double(),
+  RDEATH2016 = col_double(),
+  RDEATH2017 = col_double(),
+  RNATURALINC2011 = col_double(),
+  RNATURALINC2012 = col_double()
+  # ... with 26 more columns
+)
+"
+"2","See spec(...) for full column specifications.
+"
+"2","longer object length is not a multiple of shorter object length"
+"0","acc <- merge(acc,pop, by.x =""State Name"" , by.y = ""NAME2"", all.x = TRUE)"
