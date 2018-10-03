@@ -1,9 +1,0 @@
-"0","acc %>% group_by(`State Name`) %>% select(FATALS) %>% summarise(sum(FATALS)) %>%
-  ggplot(aes(reorder(`State Name`,-count),count)) + geom_col() +
-  labs(x = """", y = ""Number of Accidents"") + theme_minimal() +
-  theme(axis.text.x = element_text(angle = 45, size = 6))
-"
-"2","Adding missing grouping variables: `State Name`
-"
-"2","Error in -count : invalid argument to unary operator
-"

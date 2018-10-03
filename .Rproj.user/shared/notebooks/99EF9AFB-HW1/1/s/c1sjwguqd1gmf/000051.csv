@@ -1,0 +1,6 @@
+"0","acc %>% group_by(`State Name`) %>% select(FATALS) %>% summarise(count = sum(FATALS)) %>% filter(`State Name` != ""NA"") %>%"
+"0","  ggplot(aes(reorder(`State Name`,-count),count)) + geom_col() +"
+"0","  labs(x = """", y = ""Number of Fatalaties"") + theme_minimal() +"
+"0","  theme(axis.text.x = element_text(angle = 65, size = 4.5))"
+"2","Adding missing grouping variables: `State Name`
+"

@@ -789,4 +789,109 @@ Maybe you wanted to say 'git add .'?[0K
 [0K[?25h[?25l
 [0;32miecastro@FALK-PH-NSF-L10 [0;35m [0;33m//hd.ad.syr.edu/02/c3964a/Documents/Desktop/JHU-AdvDataScience[0;36m (master)[0m[0K
 $[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hd[0Kd[0K[11G[?25l$ git add -[0K[?25h-[0Ka[0Kl[0Kl[0K[?25l
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/373AB441/pcs/files-pane.pper.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/373AB441/pcs/source-pane.pper.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/373AB441/pcs/windowlayoutstate.pper.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/373AB441/pcs/workbench-pane.pper.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/373AB441/rmd-outputs.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/373AB441/sources/prop/81E4A112.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/373AB441/sources/prop/INDEX.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/shared/notebooks/paths.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/373AB441/sources/prop/1EB8783A.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/373AB441/sources/prop/B11D0823.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/373AB441/sources/prop/CEEC009F.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/373AB441/sources/s-754BB7A5/D1D8D17F.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/373AB441/sources/s-754BB7A5/D3242B9D.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/373AB441/sources/s-754BB7A5/D3242B9D-contents.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/shared/notebooks/746DA2E-HW0/1/s/claoi2p5xw7e5/000004.c[0Ks[?25l
+v.[0K
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/shared/notebooks/746DA2E-HW0/1/s/csetup_chunk/000002.cs[0Kv[?25l
+.[0K
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/shared/notebooks/99EF9AFB-HW1/1/s/c1sjwguqd1gmf/000029.[0Kc[?25l
+sv.[0K
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/shared/notebooks/99EF9AFB-HW1/1/s/cayw1ublqfl7z/00000d.[0Kc[?25l
+sv.[0K
+The file will have its original line endings in your working directory.[0K
+[0K[?25h[?25l
+[0;32miecastro@FALK-PH-NSF-L10 [0;35m [0;33m//hd.ad.syr.edu/02/c3964a/Documents/Desktop/JHU-AdvDataScience[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25h[?25li[0K[4G[?25h[5G[?25l$ git[0K[?25h[7G[?25l$ git c[0K[?25ho[0Km[0Km[0Ki[0Kt[0K[14G[?25l$ git commit -[0K[?25hm[0K[17G[?25l$ git commit -m "[0K[?25hp[0Kr[0Ke[0Kd[0K[23G[22G[?25l$ git commit -m "pre[0K[?25h[?25l$ git commit -m "pr[0K[?25h[?25l$ git commit -m "p[0K[?25h[?25l$ git commit -m "[0K[?25hd[0Ka[0Kt[0Ka[0K[23G[?25l$ git commit -m "data p[0K[?25hr[0Ke[0Kp[0K"[0K[?25l
+[0K[?25h[master 92c27e0] data prep[0K[?25l
+ 43 files changed, 895 insertions(+), 166 deletions(-)[0K
+ rewrite .Rproj.user/373AB441/console06/INDEX001 (86%)[0K
+ create mode 100644 .Rproj.user/373AB441/sources/prop/1EB8783A[0K
+ create mode 100644 .Rproj.user/373AB441/sources/prop/B11D0823[0K
+ create mode 100644 .Rproj.user/373AB441/sources/prop/CEEC009F[0K
+ create mode 100644 .Rproj.user/373AB441/sources/s-754BB7A5/D1D8D17F[0K
+ rename .Rproj.user/373AB441/sources/{s-D2BE8EA3/lock_file => s-754BB7A5/D1D8D17F-contents} (100%)[0K
+ create mode 100644 .Rproj.user/373AB441/sources/s-754BB7A5/D3242B9D[0K
+ create mode 100644 .Rproj.user/373AB441/sources/s-754BB7A5/D3242B9D-contents[0K
+ create mode 100644 .Rproj.user/373AB441/sources/s-754BB7A5/lock_file[0K
+ delete mode 100644 .Rproj.user/373AB441/sources/s-D2BE8EA3/6E64E92D-contents[0K
+ delete mode 100644 .Rproj.user/373AB441/sources/s-D2BE8EA3/E9B0740-contents[0K
+ create mode 100644 .Rproj.user/shared/notebooks/746DA2E-HW0/1/373AB441754BB7A5/chunks.json[0K
+ create mode 100644 .Rproj.user/shared/notebooks/746DA2E-HW0/1/373AB441D2BE8EA3/chunks.json[0K
+ rewrite .Rproj.user/shared/notebooks/746DA2E-HW0/1/s/chunks.json (100%)[0K
+ create mode 100644 .Rproj.user/shared/notebooks/746DA2E-HW0/1/s/claoi2p5xw7e5/000004.csv[0K
+ create mode 100644 .Rproj.user/shared/notebooks/746DA2E-HW0/1/s/csetup_chunk/000002.csv[0K
+ create mode 100644 .Rproj.user/shared/notebooks/99EF9AFB-HW1/1/373AB441754BB7A5/chunks.json[0K
+ create mode 100644 .Rproj.user/shared/notebooks/99EF9AFB-HW1/1/s/c1sjwguqd1gmf/000029.csv[0K
+ create mode 100644 .Rproj.user/shared/notebooks/99EF9AFB-HW1/1/s/c1sjwguqd1gmf/00002a.error[0K
+ create mode 100644 .Rproj.user/shared/notebooks/99EF9AFB-HW1/1/s/c1sjwguqd1gmf/00002b.metadata[0K
+ create mode 100644 .Rproj.user/shared/notebooks/99EF9AFB-HW1/1/s/c1sjwguqd1gmf/00002b.png[0K
+ create mode 100644 .Rproj.user/shared/notebooks/99EF9AFB-HW1/1/s/c9n8kijprfhvw/000007.metadata[0K
+ create mode 100644 .Rproj.user/shared/notebooks/99EF9AFB-HW1/1/s/c9n8kijprfhvw/000007.rdf[0K
+ create mode 100644 .Rproj.user/shared/notebooks/99EF9AFB-HW1/1/s/cayw1ublqfl7z/00000d.csv[0K
+ create mode 100644 .Rproj.user/shared/notebooks/99EF9AFB-HW1/1/s/chix44rczi5hf/000002.metadata[0K
+ create mode 100644 .Rproj.user/shared/notebooks/99EF9AFB-HW1/1/s/chix44rczi5hf/000002.rdf[0K
+ create mode 100644 .Rproj.user/shared/notebooks/99EF9AFB-HW1/1/s/chunks.json[0K
+ create mode 100644 .Rproj.user/shared/notebooks/99EF9AFB-HW1/1/s/cq8gqte4ggl8n/000006.metadata[0K
+ create mode 100644 .Rproj.user/shared/notebooks/99EF9AFB-HW1/1/s/cq8gqte4ggl8n/000006.rdf[0K
+ create mode 100644 .Rproj.user/shared/notebooks/99EF9AFB-HW1/1/s/cy82eyp66ohsk/000013.metadata[0K
+ create mode 100644 .Rproj.user/shared/notebooks/99EF9AFB-HW1/1/s/cy82eyp66ohsk/000013.rdf[0K
+ create mode 100644 Assigments/HW1.Rmd[0K
+ create mode 100644 data/FRPP GLC US Territories.xlsx[0K
+ create mode 100644 data/FRPP GLC United States.xlsx[0K
+ create mode 100644 data/accident.dbf[0K
+ create mode 100644 data/nst-est2017-alldata.csv[0K
+[0K[?25h[?25l
+[0;32miecastro@FALK-PH-NSF-L10 [0;35m [0;33m//hd.ad.syr.edu/02/c3964a/Documents/Desktop/JHU-AdvDataScience[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git p[0K[?25hu[0Ks[0Kh[0K[12G[?25l$ git push -[0K[?25hu[0K[15G[?25l$ git push -u o[0K[?25hr[0Ki[0Kg[0Ki[0Kn[0K[22G[?25l$ git push -u origin m[0K[?25ha[0Ks[0Kt[0Ke[0Kr[0K[?25l
+[0K[?25h[?25lEnumerating objects: 48[0K[1G[?25hEnumerating objects: 86, done.[0K[?25l
+[0K[?25h[?25lCounting objects:   1% (1/86)[0K[1G[?25h[?25lCounting objects:   2% (2/86)[0K[1G[?25h[?25lCounting objects:   3% (3/86)[0K[1G[?25h[?25lCounting objects:   4% (4/86)[0K[1G[?25h[?25lCounting objects:   6% (6/86)[0K[1G[?25h[?25lCounting objects:   8% (7/86)[0K[1G[?25h[?25lCounting objects:   9% (8/86)[0K[1G[?25h[?25lCounting objects:  10% (9/86)[0K[1G[?25h[?25lCounting objects:  11% (10/86)[0K[1G[?25h[?25lCounting objects:  12% (11/86)[0K[1G[?25h[?25lCounting objects:  13% (12/86)[0K[1G[?25h[?25lCounting objects:  16% (14/86)[0K[1G[?25h[?25lCounting objects:  17% (15/86)[0K[1G[?25h[?25lCounting objects:  18% (16/86)[0K[1G[?25h[?25lCounting objects:  20% (18/86)[0K[1G[?25h[?25lCounting objects:  22% (19/86)[0K[1G[?25h[?25lCounting objects:  23% (20/86)[0K[1G[?25h[?25lCounting objects:  24% (21/86)[0K[1G[?25h[?25lCounting objects:  25% (22/86)[0K[1G[?25h[?25lCounting objects:  26% (23/86)[0K[1G[?25h[?25lCounting objects:  27% (24/86)[0K[1G[?25h[?25lCounting objects:  29% (25/86)[0K[1G[?25h[?25lCounting objects:  30% (26/86)[0K[1G[?25h[?25lCounting objects:  31% (27/86)[0K[1G[?25h[?25lCounting objects:  32% (28/86)[0K[1G[?25h[?25lCounting objects:  33% (29/86)[0K[1G[?25h[?25lCounting objects:  34% (30/86)[0K[1G[?25h[?25lCounting objects:  36% (31/86)[0K[1G[?25h[?25lCounting objects:  37% (32/86)[0K[1G[?25h[?25lCounting objects:  38% (33/86)[0K[1G[?25h[?25lCounting objects:  39% (34/86)[0K[1G[?25h[?25lCounting objects:  40% (35/86)[0K[1G[?25h[?25lCounting objects:  41% (36/86)[0K[1G[?25h[?25lCounting objects:  43% (37/86)[0K[1G[?25h[?25lCounting objects:  44% (38/86)[0K[1G[?25h[?25lCounting objects:  45% (39/86)[0K[1G[?25h[?25lCounting objects:  46% (40/86)[0K[1G[?25h[?25lCounting objects:  48% (42/86)[0K[1G[?25h[?25lCounting objects:  50% (43/86)[0K[1G[?25h[?25lCounting objects:  51% (44/86)[0K[1G[?25h[?25lCounting objects:  52% (45/86)[0K[1G[?25h[?25lCounting objects:  54% (47/86)[0K[1G[?25h[?25lCounting objects:  56% (49/86)[0K[1G[?25h[?25lCounting objects:  58% (50/86)[0K[1G[?25h[?25lCounting objects:  59% (51/86)[0K[1G[?25h[?25lCounting objects:  60% (52/86)[0K[1G[?25h[?25lCounting objects:  61% (53/86)[0K[1G[?25h[?25lCounting objects:  62% (54/86)[0K[1G[?25h[?25lCounting objects:  63% (55/86)[0K[1G[?25h[?25lCounting objects:  65% (56/86)[0K[1G[?25h[?25lCounting objects:  66% (57/86)[0K[1G[?25h[?25lCounting objects:  67% (58/86)[0K[1G[?25h[?25lCounting objects:  68% (59/86)[0K[1G[?25h[?25lCounting objects:  69% (60/86)[0K[1G[?25h[?25lCounting objects:  72% (62/86)[0K[1G[?25h[?25lCounting objects:  74% (64/86)[0K[1G[?25h[?25lCounting objects:  75% (65/86)[0K[1G[?25h[?25lCounting objects:  76% (66/86)[0K[1G[?25h[?25lCounting objects:  77% (67/86)[0K[1G[?25h[?25lCounting objects:  81% (70/86)[0K[1G[?25h[?25lCounting objects:  83% (72/86)[0K[1G[?25h[?25lCounting objects:  88% (76/86)[0K[1G[?25h[?25lCounting objects:  90% (78/86)[0K[1G[?25h[?25lCounting objects:  91% (79/86)[0K[1G[?25h[?25lCounting objects:  93% (80/86)[0K[1G[?25h[?25lCounting objects:  94% (81/86)[0K[1G[?25h[?25lCounting objects:  96% (83/86)[0K[1G[?25h[?25lCounting objects:  98% (85/86)[0K[1G[?25hCounting objects: 100% (86/86), done.[0K[?25l
+Delta compression using up to 4 threads.[0K
+Compressing objects:  15% (8/52)[0K[1G[?25h[?25lCompressing objects:  19% (10/52)[0K[1G[?25h[?25lCompressing objects:  21% (11/52)[0K[1G[?25h[?25lCompressing objects:  23% (12/52)[0K[1G[?25h[?25lCompressing objects:  25% (13/52)[0K[1G[?25h[?25lCompressing objects:  26% (14/52)[0K[1G[?25h[?25lCompressing objects:  30% (16/52)[0K[1G[?25h[?25lCompressing objects:  32% (17/52)[0K[1G[?25h[?25lCompressing objects:  36% (19/52)[0K[1G[?25h[?25lCompressing objects:  38% (20/52)[0K[1G[?25h[?25lCompressing objects:  42% (22/52)[0K[1G[?25h[?25lCompressing objects:  46% (24/52)[0K[1G[?25h[?25lCompressing objects:  50% (26/52)[0K[1G[?25h[?25lCompressing objects:  53% (28/52)[0K[1G[?25h[?25lCompressing objects:  57% (30/52)[0K[1G[?25h[?25lCompressing objects:  63% (33/52)[0K[1G[?25h[?25lCompressing objects:  65% (34/52)[0K[1G[?25h[?25lCompressing objects:  69% (36/52)[0K[1G[?25h[?25lCompressing objects:  75% (39/52)[0K[1G[?25h[?25lCompressing objects:  78% (41/52)[0K[1G[?25h[?25lCompressing objects:  82% (43/52)[0K[1G[?25h[?25lCompressing objects:  84% (44/52)[0K[1G[?25h[?25lCompressing objects:  88% (46/52)[0K[1G[?25h[?25lCompressing objects:  92% (48/52)[0K[1G[?25h[?25lCompressing objects:  94% (49/52)[0K[1G[?25h[?25lCompressing objects:  98% (51/52)[0K[1G[?25hCompressing objects: 100% (52/52), done.[0K[?25l
+Writing objects:   6% (4/65)[0K[1G[?25h[?25lWriting objects:   7% (5/65)[0K[1G[?25h[?25lWriting objects:  16% (11/65)[0K[1G[?25h[?25lWriting objects:  20% (13/65)[0K[1G[?25h[?25lWriting objects:  27% (18/65)[0K[1G[?25h[?25lWriting objects:  29% (19/65)[0K[1G[?25h[?25lWriting objects:  36% (24/65)[0K[1G[?25h[?25lWriting objects:  38% (25/65)[0K[1G[?25h[?25lWriting objects:  41% (27/65)[0K[1G[?25h[?25lWriting objects:  47% (31/65)[0K[1G[?25h[?25lWriting objects:  52% (34/65)[0K[1G[?25h[?25lWriting objects:  55% (36/65)[0K[1G[?25h[?25lWriting objects:  63% (41/65)[0K[1G[?25h[?25lWriting objects:  66% (43/65)[0K[1G[?25h[?25lWriting objects:  69% (45/65)[0K[1G[?25h[?25lWriting objects:  72% (47/65)[0K[1G[?25h[?25lWriting objects:  76% (50/65)[0K[1G[?25h[?25lWriting objects:  78% (51/65)[0K[1G[?25h[?25lWriting objects:  84% (55/65)[0K[1G[?25h[?25lWriting objects:  86% (56/65)[0K[1G[?25h[?25lWriting objects:  93% (61/65)[0K[1G[?25h[?25lWriting objects:  95% (62/65), 384.00 KiB | 752.00 KiB/s[0K[1G[?25h[?25lWriting objects:  95% (62/65), 984.00 KiB | 227.00 KiB/s[0K[1G[?25h[?25lWriting objects:  95% (62/65), 1.11 MiB | 234.00 KiB/s[0K[1G[?25h[?25lWriting objects:  95% (62/65), 1.39 MiB | 242.00 KiB/s[0K[1G[?25h[?25lWriting objects:  95% (62/65), 1.67 MiB | 248.00 KiB/s[0K[1G[?25h[?25lWriting objects:  95% (62/65), 1.95 MiB | 251.00 KiB/s[0K[1G[?25h[?25lWriting objects:  96% (63/65), 2.09 MiB | 222.00 KiB/s[0K[1G[?25h[?25lWriting objects:  96% (63/65), 2.20 MiB | 222.00 KiB/s[0K[1G[?25h[?25lWriting objects:  96% (63/65), 2.55 MiB | 232.00 KiB/s[0K[1G[?25h[?25lWriting objects:  96% (63/65), 2.84 MiB | 232.00 KiB/s[0K[1G[?25h[?25lWriting objects:  96% (63/65), 3.12 MiB | 232.00 KiB/s[0K[1G[?25h[?25lWriting objects:  96% (63/65), 3.40 MiB | 232.00 KiB/s[0K[1G[?25h[?25lWriting objects:  96% (63/65), 3.54 MiB | 290.00 KiB/s[0K[1G[?25h[?25lWriting objects:  96% (63/65), 3.82 MiB | 276.00 KiB/s[0K[1G[?25h[?25lWriting objects:  98% (64/65), 3.96 MiB | 276.00 KiB/s[0K[1G[?25hWriting objects: 100% (65/65), 4.11 MiB | 245.00 KiB/s, done.[0K[?25l
+Total 65 (delta 9), reused 0 (delta 0)[0K
+[0K[?25hremote: Resolving deltas: 100% (9/9), completed with 6 local objects.[0K[?25l
+[0K[?25hTo https://github.com/iecastro/JHU-AdvDataScience.git[0K[?25l
+   5a03aab..92c27e0  master -> master[0K
+[0K[?25hBranch 'master' set up to track remote branch 'master' from 'origin'.[0K[?25l
+[0K[?25h[?25l
+[0;32miecastro@FALK-PH-NSF-L10 [0;35m [0;33m//hd.ad.syr.edu/02/c3964a/Documents/Desktop/JHU-AdvDataScience[0;36m (master)[0m[0K
+$[0K[3G[?25h[0m[0K]0;://hd.ad.syr.edu/02/c3964a/Documents/Desktop/JHU-AdvDataScience[?25l
+[0;32miecastro@FALK-PH-NSF-L10 [0;35m [0;33m//hd.ad.syr.edu/02/c3964a/Documents/Desktop/JHU-AdvDataScien[0Kc
+e[0;36m (master)[0m[0K
+[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git c[0K[?25hi[0Km[0K[?25l$ git ci[0K[?25h[?25l$ git c[0K[?25h[?25l$ git[0K[7G[?25h[6G[?25l$ gitc[0K[?25h[?25lo[0K[7G[?25h[8G[?25l$ gitcom[0K[?25hm[0K[?25l$ gitcom[0K[?25h[?25l$ gitco[0K[?25h[?25l$ gitc[0K[8G[?25h[7G[?25l$ git[0K[?25h[7G[?25l$ git c[0K[7G[?25h[8G[?25l$ git co[0K[?25hm[0Km[0Ki[0Kt[0K[14G[?25l$ git commit -[0K[?25ha[0Kl[0Kl[0K[?25l
+[0K[?25herror: did you mean `--all` (with two dashes ?)[0K[?25l
+[0K[?25h[?25l
+[0;32miecastro@FALK-PH-NSF-L10 [0;35m [0;33m//hd.ad.syr.edu/02/c3964a/Documents/Desktop/JHU-AdvDataScien[0Kc
+e[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ git commit -all[0K[?25h[17G[16G[14G[13G[12G[?25l$ git commt -all[0K[11G[?25h[?25l$ git comt -all[0K[10G[?25h[?25l$ git ct -all[0K[8G[?25h[?25l$ git t -all[0K[7G[?25h[8G[?25l$ git  -all[0K[7G[?25h[?25l$ git a -all[0K[8G[?25h[?25l$ git add -all[0K[10G[?25h[?25l$ git add  -all[0K[11G[?25h[?25l$ git add - -all[0K[12G[?25h[?25l$ git add  -all[0K[11G[?25h[12G[?25l$ git add  --all[0K[13G[?25h[?25l
 [0K[?25h

@@ -1,0 +1,1 @@
+"0","acc <- merge(acc,states, by.x = ""STATE"", by.y = ""State Code"", all.x = TRUE)"

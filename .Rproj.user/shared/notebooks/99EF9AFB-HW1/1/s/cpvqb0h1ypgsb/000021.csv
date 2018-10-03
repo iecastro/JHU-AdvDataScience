@@ -1,0 +1,6 @@
+"0","acc %>% group_by(state) %>%
+  mutate(count = sum(FATALS)) %>%
+  ggplot(aes(POPESTIMATE2015, count, color = state.region)) + geom_point() +
+  geom_text(aes(label = state.abb, check_overlap = TRUE))
+"
+"2","Ignoring unknown aesthetics: check_overlap"
