@@ -1301,4 +1301,95 @@ Total 22 (delta 10), reused 0 (delta 0)[0K
 [0K[?25h[?25l
 [0;32miecastro@FALK-PH-NSF-L10 [0;35m [0;33m//hd.ad.syr.edu/02/c3964a/Documents/Desktop/JHU-AdvDataScience[0;36m (master)[0m[0K
 $[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hd[0Kd[0K[11G[?25l$ git add -[0K[?25h-[0K[?25l$ git add -[0K[?25hA[0K[?25l
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/373AB441/sources/prop/3628E615.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/373AB441/sources/prop/4C5BF84B.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/373AB441/sources/prop/6B1F28AD.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/373AB441/sources/prop/AB52B610.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/373AB441/sources/prop/F0FE5458.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/373AB441/sources/s-67523FC4/16D96E-contents.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/373AB441/sources/s-67523FC4/D933D1E8-contents.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/shared/notebooks/paths.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/373AB441/sources/s-67523FC4/26F14D37.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/373AB441/sources/s-67523FC4/26F14D37-contents.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/373AB441/sources/s-67523FC4/731708AE.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/373AB441/sources/s-67523FC4/731708AE-contents.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/373AB441/sources/s-67523FC4/EBD0FDAF.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/373AB441/sources/s-67523FC4/EBD0FDAF-contents.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/shared/notebooks/B63D95DA-HW1/1/s/cwj8094saw690/00005[0K0[?25l
+.csv.[0K
+The file will have its original line endings in your working directory.[0K
+[0K[?25h[?25l
+[0;32miecastro@FALK-PH-NSF-L10 [0;35m [0;33m//hd.ad.syr.edu/02/c3964a/Documents/Desktop/JHU-AdvDataScience[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ git add -A[0K[?25h[?25l$ git push[0K[?25h[?25l$ git add -A[0K[?25h[?25l$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git c[0K[?25hi[0Km[0Km[0Ki[0Kt[0K[14G[?25l$ git cimmit -[0K[?25hm[0K[17G[?25l$ git cimmit -m "[0K[?25h[17G[16G[15G[14G[13G[12G[11G[10G[9G[8G[?25l$ git coimmit -m "[0K[9G[?25h[10G[?25l$ git commit -m "[0K[9G[?25h[10G[11G[12G[13G[14G[15G[16G[17G[18G[?25l$ git commit -m "u[0K[?25hp[0Kd[0Ka[0Kt[0Ke[0K[25G[?25l$ git commit -m "update h[0K[?25hw[0K1[0K"[0K[?25l
+[0K[?25h[master ab26a2d] update hw1[0K[?25l
+ 37 files changed, 820 insertions(+), 92 deletions(-)[0K
+ delete mode 100644 .Rproj.user/373AB441/sources/s-67523FC4/16D96E[0K
+ rename .Rproj.user/373AB441/sources/s-67523FC4/{7706B233 => 26F14D37} (65%)[0K
+ create mode 100644 .Rproj.user/373AB441/sources/s-67523FC4/26F14D37-contents[0K
+ delete mode 100644 .Rproj.user/373AB441/sources/s-67523FC4/61B92CF8[0K
+ rename .Rproj.user/373AB441/sources/s-67523FC4/{2CBA4B66 => 731708AE} (53%)[0K
+ create mode 100644 .Rproj.user/373AB441/sources/s-67523FC4/731708AE-contents[0K
+ delete mode 100644 .Rproj.user/373AB441/sources/s-67523FC4/D933D1E8[0K
+ create mode 100644 .Rproj.user/373AB441/sources/s-67523FC4/EBD0FDAF[0K
+ create mode 100644 .Rproj.user/373AB441/sources/s-67523FC4/EBD0FDAF-contents[0K
+ delete mode 100644 .Rproj.user/shared/notebooks/42079ACD-template/1/373AB44167523FC4/chunks.json[0K
+ rewrite .Rproj.user/shared/notebooks/B63D95DA-HW1/1/373AB44167523FC4/chunks.json (100%)[0K
+ rewrite .Rproj.user/shared/notebooks/B63D95DA-HW1/1/s/chunks.json (100%)[0K
+ create mode 100644 .Rproj.user/shared/notebooks/B63D95DA-HW1/1/s/ctys3ywctdaq4/000005.metadata[0K
+ create mode 100644 .Rproj.user/shared/notebooks/B63D95DA-HW1/1/s/ctys3ywctdaq4/000005.png[0K
+ create mode 100644 .Rproj.user/shared/notebooks/B63D95DA-HW1/1/s/ctys3ywctdaq4/000005.snapshot[0K
+ create mode 100644 .Rproj.user/shared/notebooks/B63D95DA-HW1/1/s/cwj8094saw690/000050.csv[0K
+ create mode 100644 .Rproj.user/shared/notebooks/B63D95DA-HW1/1/s/cwj8094saw690/000051.metadata[0K
+ create mode 100644 .Rproj.user/shared/notebooks/B63D95DA-HW1/1/s/cwj8094saw690/000051.png[0K
+ create mode 100644 .Rproj.user/shared/notebooks/B63D95DA-HW1/1/s/cwj8094saw690/000051.snapshot[0K
+ create mode 100644 Assignments/HW_figs/HW1-unnamed-chunk-11-1.png[0K
+ create mode 100644 Assignments/HW_figs/HW1-unnamed-chunk-77-1.png[0K
+ create mode 100644 Assignments/HW_figs/HW1-unnamed-chunk-78-1.png[0K
+ create mode 100644 Assignments/HW_figs/HW1-unnamed-chunk-79-1.png[0K
+ create mode 100644 Assignments/HW_figs/HW1-unnamed-chunk-80-1.png[0K
+ create mode 100644 Assignments/HW_figs/HW1-unnamed-chunk-81-1.png[0K
+ create mode 100644 data/KFF_rawdata.xlsx[0K
+ delete mode 100644 figure/unnamed-chunk-6-1.png[0K
+[0K[?25h[?25l
+[0;32miecastro@FALK-PH-NSF-L10 [0;35m [0;33m//hd.ad.syr.edu/02/c3964a/Documents/Desktop/JHU-AdvDataScience[0;36m (master)[0m[0K[1G[?25h[?25l
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git p[0K[?25hu[0Ka[0K[?25l$ git pu[0K[?25hs[0Kh[0K[12G[?25l
+[0K[?25h[?25lEnumerating objects: 1[0K[1G[?25h[?25lEnumerating objects: 51[0K[1G[?25hEnumerating objects: 72, done.[0K[?25l
+Counting objects:   1% (1/72)[0K[1G[?25h[?25lCounting objects:   2% (2/72)[0K[1G[?25h[?25lCounting objects:   5% (4/72)[0K[1G[?25h[?25lCounting objects:   8% (6/72)[0K[1G[?25h[?25lCounting objects:  11% (8/72)[0K[1G[?25h[?25lCounting objects:  13% (10/72)[0K[1G[?25h[?25lCounting objects:  15% (11/72)[0K[1G[?25h[?25lCounting objects:  18% (13/72)[0K[1G[?25h[?25lCounting objects:  20% (15/72)[0K[1G[?25h[?25lCounting objects:  22% (16/72)[0K[1G[?25h[?25lCounting objects:  23% (17/72)[0K[1G[?25h[?25lCounting objects:  26% (19/72)[0K[1G[?25h[?25lCounting objects:  27% (20/72)[0K[1G[?25h[?25lCounting objects:  29% (21/72)[0K[1G[?25h[?25lCounting objects:  30% (22/72)[0K[1G[?25h[?25lCounting objects:  33% (24/72)[0K[1G[?25h[?25lCounting objects:  36% (26/72)[0K[1G[?25h[?25lCounting objects:  37% (27/72)[0K[1G[?25h[?25lCounting objects:  40% (29/72)[0K[1G[?25h[?25lCounting objects:  41% (30/72)[0K[1G[?25h[?25lCounting objects:  43% (31/72)[0K[1G[?25h[?25lCounting objects:  44% (32/72)[0K[1G[?25h[?25lCounting objects:  45% (33/72)[0K[1G[?25h[?25lCounting objects:  47% (34/72)[0K[1G[?25h[?25lCounting objects:  51% (37/72)[0K[1G[?25h[?25lCounting objects:  54% (39/72)[0K[1G[?25h[?25lCounting objects:  58% (42/72)[0K[1G[?25h[?25lCounting objects:  61% (44/72)[0K[1G[?25h[?25lCounting objects:  63% (46/72)[0K[1G[?25h[?25lCounting objects:  65% (47/72)[0K[1G[?25h[?25lCounting objects:  68% (49/72)[0K[1G[?25h[?25lCounting objects:  70% (51/72)[0K[1G[?25h[?25lCounting objects:  73% (53/72)[0K[1G[?25h[?25lCounting objects:  77% (56/72)[0K[1G[?25h[?25lCounting objects:  79% (57/72)[0K[1G[?25h[?25lCounting objects:  81% (59/72)[0K[1G[?25h[?25lCounting objects:  86% (62/72)[0K[1G[?25h[?25lCounting objects:  88% (64/72)[0K[1G[?25h[?25lCounting objects:  90% (65/72)[0K[1G[?25h[?25lCounting objects:  93% (67/72)[0K[1G[?25h[?25lCounting objects:  94% (68/72)[0K[1G[?25h[?25lCounting objects:  95% (69/72)[0K[1G[?25hCounting objects: 100% (72/72), done.[0K[?25l
+Delta compression using up to 4 threads.[0K
+Compressing objects:   7% (3/38)[0K[1G[?25h[?25lCompressing objects:  10% (4/38)[0K[1G[?25h[?25lCompressing objects:  15% (6/38)[0K[1G[?25h[?25lCompressing objects:  23% (9/38)[0K[1G[?25h[?25lCompressing objects:  26% (10/38)[0K[1G[?25h[?25lCompressing objects:  28% (11/38)[0K[1G[?25h[?25lCompressing objects:  31% (12/38)[0K[1G[?25h[?25lCompressing objects:  36% (14/38)[0K[1G[?25h[?25lCompressing objects:  39% (15/38)[0K[1G[?25h[?25lCompressing objects:  42% (16/38)[0K[1G[?25h[?25lCompressing objects:  44% (17/38)[0K[1G[?25h[?25lCompressing objects:  52% (20/38)[0K[1G[?25h[?25lCompressing objects:  55% (21/38)[0K[1G[?25h[?25lCompressing objects:  57% (22/38)[0K[1G[?25h[?25lCompressing objects:  60% (23/38)[0K[1G[?25h[?25lCompressing objects:  63% (24/38)[0K[1G[?25h[?25lCompressing objects:  68% (26/38)[0K[1G[?25h[?25lCompressing objects:  73% (28/38)[0K[1G[?25h[?25lCompressing objects:  76% (29/38)[0K[1G[?25h[?25lCompressing objects:  78% (30/38)[0K[1G[?25h[?25lCompressing objects:  81% (31/38)[0K[1G[?25h[?25lCompressing objects:  84% (32/38)[0K[1G[?25h[?25lCompressing objects:  86% (33/38)[0K[1G[?25h[?25lCompressing objects:  89% (34/38)[0K[1G[?25h[?25lCompressing objects:  92% (35/38)[0K[1G[?25h[?25lCompressing objects:  97% (37/38)[0K[1G[?25h[?25lCompressing objects: 100% (38/38)[0K[1G[?25hCompressing objects: 100% (38/38), done.[0K[?25l
+[0K[?25h[?25lWriting objects:   8% (4/45)[0K[1G[?25h[?25lWriting objects:  11% (5/45)[0K[1G[?25h[?25lWriting objects:  17% (8/45)[0K[1G[?25h[?25lWriting objects:  24% (11/45)[0K[1G[?25h[?25lWriting objects:  35% (16/45)[0K[1G[?25h[?25lWriting objects:  42% (19/45)[0K[1G[?25h[?25lWriting objects:  48% (22/45)[0K[1G[?25h[?25lWriting objects:  53% (24/45)[0K[1G[?25h[?25lWriting objects:  57% (26/45)[0K[1G[?25h[?25lWriting objects:  64% (29/45)[0K[1G[?25h[?25lWriting objects:  71% (32/45)[0K[1G[?25h[?25lWriting objects:  73% (33/45)[0K[1G[?25h[?25lWriting objects:  75% (34/45), 24.00 KiB | 18.00 KiB/s[0K[1G[?25h[?25lWriting objects:  80% (36/45), 24.00 KiB | 18.00 KiB/s[0K[1G[?25h[?25lWriting objects:  82% (37/45), 24.00 KiB | 18.00 KiB/s[0K[1G[?25h[?25lWriting objects:  86% (39/45), 24.00 KiB | 18.00 KiB/s[0K[1G[?25h[?25lWriting objects:  93% (42/45), 24.00 KiB | 18.00 KiB/s[0K[1G[?25h[?25lWriting objects:  97% (44/45), 864.00 KiB | 548.00 KiB/s[0K[1G[?25hWriting objects: 100% (45/45), 892.35 KiB | 435.00 KiB/s, done.[0K[?25l
+Total 45 (delta 9), reused 0 (delta 0)[0K
+[0K[?25hremote: Resolving deltas: 100% (9/9), completed with 7 local objects.[0K[?25l
+[0K[?25hTo https://github.com/iecastro/JHU-AdvDataScience.git[0K[?25l
+   2ace1f9..ab26a2d  master -> master[0K
+[0K[?25h[?25l
+[0;32miecastro@FALK-PH-NSF-L10 [0;35m [0;33m//hd.ad.syr.edu/02/c3964a/Documents/Desktop/JHU-AdvDataScience[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l[13A[0;32miecastro@FALK-PH-NSF-L10 [0;35m [0;33m//hd.ad.syr.edu/02/c3964a/Documents/Desktop/JHU-AdvDataScience[0;36m (master)[0K
+[0m$ git push[0K
+Enumerating objects: 72, done.[0K
+Counting objects: 100% (72/72), done.[0K
+Delta compression using up to 4 threads.[0K
+Compressing objects: 100% (38/38), done.[0K
+Writing objects: 100% (45/45), 892.35 KiB | 435.00 KiB/s, done.[0K
+Total 45 (delta 9), reused 0 (delta 0)[0K
+remote: Resolving deltas: 100% (9/9), completed with 7 local objects.[0K
+To https://github.com/iecastro/JHU-AdvDataScience.git[0K
+   2ace1f9..ab26a2d  master -> master[0K
+[0K
+[0;32miecastro@FALK-PH-NSF-L10 [0;35m [0;33m//hd.ad.syr.edu/02/c3964a/Documents/Desktop/JHU-AdvDataScience[0;36m (master)[0K
+[0m$[0K[3G[?25h[?25l$ g[0K[?25ho[0Kt[0K[?25l$ go[0K[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hd[0Kd[0K[11G[?25l$ git add -[0K[?25hA[0K[?25l
 [0K[?25h

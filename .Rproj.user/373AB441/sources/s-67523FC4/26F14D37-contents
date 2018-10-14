@@ -55,6 +55,11 @@ metadata on the cities in the NMMAPS study.
 
 ```{r}
 ## Add your code
+library(tidyverse)
+library(lubridate)
+
+mortality <-  read_csv("~/Desktop/JHU-AdvDataScience/data/mortality/mortality_1987-2005.csv.bz2")
+cities <-  read_csv("~/Desktop/JHU-AdvDataScience/data/mortality/nmmaps_cities.csv")  
 
 ```
 
@@ -76,6 +81,19 @@ the city of New Orleans, LA in the year 2004.
 
 ```{r}
 ## Add your code
+glimpse(mortality)
+unique(mortality$city)
+
+mortality %>% gather(3:7,key = "Cause", value = "Number") %>%
+  mutate(Month = floor_date(date, unit = "1 month")) %>% 
+  filter(Cause != "accident" & city == "no") %>%   ## assumption - no = New Orleans
+  group_by(Month) %>% summarise(Count = sum(Number)) %>%
+  ggplot(aes(Month, Count)) + geom_line() +
+  scale_x_date(date_breaks = "6 months", date_labels = "%Y-%m") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 90, color = "black"))
+
+## Katrina 2005
 
 ```
 
@@ -92,6 +110,15 @@ different cities, and different causes of death.
 
 ```{r}
 ## Add your code
+
+mortality %>% gather(3:7,key = "Cause", value = "Number") %>%
+  mutate(Month = floor_date(date, unit = "1 month")) %>% 
+ filter(city %in% c("syra","miam", "dc", "hous")) %>%
+  group_by(city, Month, Cause) %>% summarise(Count = sum(Number)) %>%
+  ggplot(aes(Month, Count, color = city)) + geom_line() +
+  theme_minimal() + scale_color_viridis_d(option = "inferno") +
+  theme(axis.text.x = element_text(angle = 90, color = "black")) +
+  facet_wrap(~Cause, scales = "free_y") + labs(x = "")
 
 ```
 
@@ -114,6 +141,15 @@ does mortality tend to be the highest?
 ```{r}
 ## Add your code
 
+mortality %>% gather(3:7,key = "Cause", value = "Number") %>%
+  mutate(Month = floor_date(date, unit = "1 month"), Season = getSeason(date)) %>% 
+ filter(city == "ny" & Cause != "accident") %>%
+  group_by(Season, Month) %>% summarise(Count = sum(Number)) %>%
+  ggplot(aes(Month, Count,group = Season, color = Season)) + geom_line() +
+  theme_minimal() + scale_color_viridis_d() +
+  theme(axis.text.x = element_text(angle = 90, color = "black")) +
+  labs(x = "")
+
 ```
 
 
@@ -129,6 +165,15 @@ your results below.
 
 ```{r}
 ## Add your code
+
+mortality %>% gather(3:7,key = "Cause", value = "Number") %>%
+  mutate(Month = floor_date(date, unit = "1 month"), Season = getSeason(date)) %>% 
+ filter(city %in% c("ny","miam", "hous") & Cause != "accident") %>%
+  group_by(city, Season, Month) %>% summarise(Count = sum(Number)) %>%
+  ggplot(aes(Month, Count,group = Season, color = Season)) + geom_line() +
+  theme_minimal() + scale_color_viridis_d() +
+  theme(axis.text.x = element_text(angle = 90, color = "black")) +
+  labs(x = "") + facet_wrap(~city, scales = "free_y")
 
 ```
 
@@ -172,6 +217,10 @@ of each event in the dataset.
 
 ```{r}
 ## Add your code
+
+storm.data <- read_csv("https://www1.ncdc.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_locations-ftp_v1.0_d2004_c20170717.csv.gz") 
+
+glimpse(storm.data)
 
 ```
 
