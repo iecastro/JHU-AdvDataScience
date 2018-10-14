@@ -6,7 +6,7 @@ output: github_document
 ```{r}
 
 knitr::opts_chunk$set(include = TRUE, comment = NA,
-  fig.path = "~/Desktop/JHU-AdvDataScience/HWrendered/HW_figs/HW1-",
+  fig.path = "HW_figs/HW1-",
   message = FALSE,
   warning = FALSE)
 
