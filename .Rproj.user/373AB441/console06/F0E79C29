@@ -1261,4 +1261,44 @@ $[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git p[0K[?25hu[0Kl
 [0K[?25h[?25l
 [0;32miecastro@FALK-PH-NSF-L10 [0;35m [0;33m//hd.ad.syr.edu/02/c3964a/Documents/Desktop/JHU-AdvDataScience[0;36m (master)[0m[0K
 $[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hd[0Kd[0K[11G[?25l$ git add -[0K[?25h[13G[12G[?25l$ git add -a[0K[?25h[?25l$ git add -[0K[?25h-[0Ka[0Kl[0Kl[0K[?25l
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/373AB441/sources/prop/F0FE5458.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/373AB441/sources/prop/INDEX.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/373AB441/sources/s-67523FC4/2CBA4B66.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/373AB441/sources/s-67523FC4/2CBA4B66-contents.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/shared/notebooks/paths.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/373AB441/sources/prop/2BD838DC.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/373AB441/sources/prop/AB52B610.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25h[?25l
+[0;32miecastro@FALK-PH-NSF-L10 [0;35m [0;33m//hd.ad.syr.edu/02/c3964a/Documents/Desktop/JHU-AdvDataScience[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git c[0K[?25ho[0Km[0Km[0Ki[0Kt[0K[14G[?25l$ git commit -[0K[?25hm[0K[17G[?25l$ git commit -m "[0K[?25hm[0Ke[0Ks[0Ksa[0K[?25l$ git commit -m "mess[0K[?25ha[0Kg[0Ke[0K[?25l$ git commit -m "messag[0K[?25h[?25l$ git commit -m "messa[0K[?25h[?25l$ git commit -m "mess[0K[?25h[?25l$ git commit -m "mes[0K[?25h[?25l$ git commit -m "me[0K[?25h[?25l$ git commit -m "m[0K[?25h[?25l$ git commit -m "[0K[?25hc[0Kr[0Ke[0Ka[0Kt[0Ke[0K[25G[?25l$ git commit -m "create H[0K[?25hW[0K[28G[?25l$ git commit -m "create HW k[0K[?25hn[0K[?25l$ git commit -m "create HW k[0K[?25h[?25l$ git commit -m "create HW[0K[28G[?25h[27G[?25l$ git commit -m "create H[0K[?25h[?25l$ git commit -m "create[0K[25G[?25h[?25l$ git commit -m "create k[0K[?25hn[0Ki[0Kt[0K_[0Kp[0Ko[0Kt[0Ks[0K[?25l$ git commit -m "create knit_pot[0K[?25h[?25l$ git commit -m "create knit_po[0K[?25h[?25l$ git commit -m "create knit_p[0K[?25h[?25l$ git commit -m "create knit_[0K[?25ho[0Kp[0Kt[0Ks[0K[35G[?25l$ git commit -m "create knit_opts tr[0K[?25he[0K[?25l$ git commit -m "create knit_opts tr[0K[?25h[?25l$ git commit -m "create knit_opts t[0K[?25he[0Km[0Kp[0Kl[0Ka[0Ke[0K[?25l$ git commit -m "create knit_opts templa[0K[?25ht[0Ke[0K"[0K[?25l
+[0K[?25h[master 2ace1f9] create knit_opts template[0K[?25l
+ 11 files changed, 85 insertions(+), 316 deletions(-)[0K
+ create mode 100644 .Rproj.user/373AB441/sources/prop/2BD838DC[0K
+ create mode 100644 .Rproj.user/373AB441/sources/prop/AB52B610[0K
+ rewrite .Rproj.user/373AB441/sources/s-67523FC4/2CBA4B66-contents (98%)[0K
+ create mode 100644 .Rproj.user/shared/notebooks/42079ACD-template/1/373AB44167523FC4/chunks.json[0K
+ create mode 100644 .Rproj.user/shared/notebooks/42079ACD-template/1/s/chunks.json[0K
+ create mode 100644 Assignments/template.Rmd[0K
+[0K[?25h[?25l
+[0;32miecastro@FALK-PH-NSF-L10 [0;35m [0;33m//hd.ad.syr.edu/02/c3964a/Documents/Desktop/JHU-AdvDataScience[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git p[0K[?25hu[0Ks[0Kh[0K[?25l
+[0K[?25hEnumerating objects: 38, done.[0K[?25l
+[0K[?25h[?25lCounting objects:   5% (2/38)[0K[1G[?25h[?25lCounting objects:  13% (5/38)[0K[1G[?25h[?25lCounting objects:  21% (8/38)[0K[1G[?25h[?25lCounting objects:  26% (10/38)[0K[1G[?25h[?25lCounting objects:  34% (13/38)[0K[1G[?25h[?25lCounting objects:  39% (15/38)[0K[1G[?25h[?25lCounting objects:  44% (17/38)[0K[1G[?25h[?25lCounting objects:  47% (18/38)[0K[1G[?25h[?25lCounting objects:  52% (20/38)[0K[1G[?25h[?25lCounting objects:  57% (22/38)[0K[1G[?25h[?25lCounting objects:  63% (24/38)[0K[1G[?25h[?25lCounting objects:  71% (27/38)[0K[1G[?25h[?25lCounting objects:  76% (29/38)[0K[1G[?25h[?25lCounting objects:  81% (31/38)[0K[1G[?25h[?25lCounting objects:  86% (33/38)[0K[1G[?25h[?25lCounting objects:  92% (35/38)[0K[1G[?25h[?25lCounting objects:  97% (37/38)[0K[1G[?25hCounting objects: 100% (38/38), done.[0K[?25l
+Delta compression using up to 4 threads.[0K
+Compressing objects:   5% (1/19)[0K[1G[?25h[?25lCompressing objects:  10% (2/19)[0K[1G[?25h[?25lCompressing objects:  21% (4/19)[0K[1G[?25h[?25lCompressing objects:  31% (6/19)[0K[1G[?25h[?25lCompressing objects:  36% (7/19)[0K[1G[?25h[?25lCompressing objects:  42% (8/19)[0K[1G[?25h[?25lCompressing objects:  47% (9/19)[0K[1G[?25h[?25lCompressing objects:  52% (10/19)[0K[1G[?25h[?25lCompressing objects:  57% (11/19)[0K[1G[?25h[?25lCompressing objects:  63% (12/19)[0K[1G[?25h[?25lCompressing objects:  73% (14/19)[0K[1G[?25h[?25lCompressing objects:  78% (15/19)[0K[1G[?25h[?25lCompressing objects:  84% (16/19)[0K[1G[?25h[?25lCompressing objects:  89% (17/19)[0K[1G[?25hCompressing objects: 100% (19/19), done.[0K[?25l
+[0K[?25h[?25lWriting objects:   9% (2/22)[0K[1G[?25h[?25lWriting objects:  18% (4/22)[0K[1G[?25h[?25lWriting objects:  36% (8/22)[0K[1G[?25h[?25lWriting objects:  72% (16/22)[0K[1G[?25h[?25lWriting objects:  81% (18/22)[0K[1G[?25hWriting objects: 100% (22/22), 2.50 KiB | 14.00 KiB/s, done.[0K[?25l
+Total 22 (delta 10), reused 0 (delta 0)[0K
+[0K[?25h[?25lremote: Resolving deltas:  40% (4/10)[0K[1G[?25hremote: Resolving deltas: 100% (10/10), completed with 10 local objects.[0K[?25l
+[0K[?25hTo https://github.com/iecastro/JHU-AdvDataScience.git[0K[?25l
+   7cb339e..2ace1f9  master -> master[0K
+[0K[?25h[?25l
+[0;32miecastro@FALK-PH-NSF-L10 [0;35m [0;33m//hd.ad.syr.edu/02/c3964a/Documents/Desktop/JHU-AdvDataScience[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hd[0Kd[0K[11G[?25l$ git add -[0K[?25h-[0K[?25l$ git add -[0K[?25hA[0K[?25l
 [0K[?25h

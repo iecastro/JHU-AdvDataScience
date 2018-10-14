@@ -1,21 +1,21 @@
 {
     "collab_server" : "",
     "contents" : "",
-    "created" : 1539523754770.000,
+    "created" : 1539530561005.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "3246005280",
-    "id" : "2CBA4B66",
+    "hash" : "0",
+    "id" : "731708AE",
     "lastKnownWriteTime" : 1539525802,
-    "last_content_update" : 1539525802155,
-    "path" : "//hd.ad.syr.edu/02/c3964a/Documents/Desktop/JHU-AdvDataScience/Assignments/template.Rmd",
+    "last_content_update" : 1539525802,
+    "path" : "~/Desktop/JHU-AdvDataScience/Assignments/template.Rmd",
     "project_path" : "Assignments/template.Rmd",
     "properties" : {
-        "cursorPosition" : "17,0",
+        "cursorPosition" : "7,0",
         "scrollLine" : "0"
     },
-    "relative_order" : 4,
+    "relative_order" : 3,
     "source_on_save" : false,
     "source_window" : "",
     "type" : "r_markdown"

@@ -1,0 +1,17 @@
+---
+title: "Homework ##: TITLE OF ASSIGMENT"
+output: github_document
+---
+
+```{r}
+
+knitr::opts_chunk$set(include = TRUE, comment = NA,
+  fig.path = "HW_figs/HW#-",   ## enter HW number
+  message = FALSE,
+  warning = FALSE)
+
+## rmarkdown::render("Assignments/HW#.Rmd", "all") ## enter HW number
+```
+
+
+## Text from assigment repo

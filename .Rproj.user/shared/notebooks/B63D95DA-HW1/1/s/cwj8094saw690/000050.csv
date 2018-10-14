@@ -1,0 +1,9 @@
+"0","lifemerge %>% group_by(`State Name`) %>%
+  mutate(count = sum(FATALS), prop = count/POPESTIMATE2015, rate = prop * 1000) %>%  filter(`State Name` != ""NA"") %>%
+  ggplot(aes(rate,LE_years, color = state.region)) + geom_point() +
+  stat_smooth(method = ""lm"") + scale_x_continuous(labels = scales::percent) +
+  scale_color_viridis_d() + theme_minimal() +
+  geom_text(aes(label = state.abb, check_overlap = TRUE)) +
+  labs(x = ""Fatalities per 1,000 people"", y = ""Life Expectancy (in years)"")
+"
+"2","Ignoring unknown aesthetics: check_overlap"

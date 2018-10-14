@@ -3,11 +3,11 @@ Homework 1: Motor vehicle traffic fatalities
 
 ``` r
 knitr::opts_chunk$set(include = TRUE, comment = NA,
-  fig.path = "HW_figs/HW1-",
+  fig.path = "HW_figs/HW1-",   
   message = FALSE,
   warning = FALSE)
 
-## rmarkdown::render("Assignments/HW1.Rmd", "all", output_dir = "HWrendered/")
+## rmarkdown::render("Assignments/HW1.Rmd", "all") 
 ```
 
 Motivation
@@ -193,7 +193,22 @@ Is rate of traffic fatalities related to life expectancy? Create a data visualiz
 
 ``` r
 ## add your code here
+
+lifeExp <- read_excel("~/Desktop/JHU-AdvDataScience/data/KFF_rawdata.xlsx") %>%
+  select(LE_years,StateCAPS)
+
+lifemerge <- merge(acc,lifeExp, by.x = "State Name", by.y = "StateCAPS", all.x = TRUE)
+
+lifemerge %>% group_by(`State Name`) %>%
+  mutate(count = sum(FATALS), prop = count/POPESTIMATE2015, rate = prop * 1000) %>%  filter(`State Name` != "NA") %>%
+  ggplot(aes(rate,LE_years, color = state.region)) + geom_point() +
+  stat_smooth(method = "lm") + scale_x_continuous(labels = scales::percent) +
+  scale_color_viridis_d() + theme_minimal() +
+  geom_text(aes(label = state.abb, check_overlap = TRUE)) +
+  labs(x = "Fatalities per 1,000 people", y = "Life Expectancy (in years)")
 ```
+
+![](HW_figs/HW1-unnamed-chunk-11-1.png)
 
 #### Add a summary of your findings here
 

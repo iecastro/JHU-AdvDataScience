@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1539525980587.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "EBD0FDAF",
+    "lastKnownWriteTime" : 1539530649,
+    "last_content_update" : 1539530650023,
+    "path" : "~/Desktop/JHU-AdvDataScience/Assignments/HW1.Rmd",
+    "project_path" : "Assignments/HW1.Rmd",
+    "properties" : {
+        "cursorPosition" : "12,3",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
