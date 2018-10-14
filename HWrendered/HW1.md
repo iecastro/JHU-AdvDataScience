@@ -1,6 +1,15 @@
 Homework 1: Motor vehicle traffic fatalities
 ================
 
+``` r
+knitr::opts_chunk$set(include = TRUE, comment = NA,
+  fig.path = "~/Desktop/JHU-AdvDataScience/HWrendered/HW_figs/HW1-",
+  message = FALSE,
+  warning = FALSE)
+
+## rmarkdown::render("Assignments/HW1.Rmd", "all", output_dir = "HWrendered/")
+```
+
 Motivation
 ----------
 
@@ -98,7 +107,7 @@ acc %>% group_by(`State Name`) %>% select(FATALS) %>% summarise(count = sum(FATA
   theme(axis.text.x = element_text(angle = 65, size = 4.5))
 ```
 
-![](HW_figs/HW1-unnamed-chunk-7-1.png)
+![](~/Desktop/JHU-AdvDataScience/HWrendered/HW_figs/HW1-unnamed-chunk-7-1.png)
 
 Which states contain the most fatalities?
 
@@ -124,7 +133,7 @@ acc %>% filter(`State Name` %in% c("TEXAS","CALIFORNIA","FLORIDA")) %>%
   scale_color_viridis_d(option="plasma", direction = -1) + theme_minimal()
 ```
 
-![](HW_figs/HW1-unnamed-chunk-8-1.png)
+![](~/Desktop/JHU-AdvDataScience/HWrendered/HW_figs/HW1-unnamed-chunk-8-1.png)
 
 If there are states that have differences across time, why do you think that is?
 
@@ -152,7 +161,7 @@ acc %>% group_by(state) %>%
   geom_text(aes(label = state.abb, check_overlap = TRUE))
 ```
 
-![](HW_figs/HW1-unnamed-chunk-9-1.png)
+![](~/Desktop/JHU-AdvDataScience/HWrendered/HW_figs/HW1-unnamed-chunk-9-1.png)
 
 #### Add a summary of your findings here
 
@@ -170,7 +179,7 @@ acc %>% group_by(`State Name`) %>%
   theme_minimal() + theme(axis.text.y = element_text(size = 5.5))
 ```
 
-![](HW_figs/HW1-unnamed-chunk-10-1.png)
+![](~/Desktop/JHU-AdvDataScience/HWrendered/HW_figs/HW1-unnamed-chunk-10-1.png)
 
 Which states have the highest fatality rate? Which states have the lowest fatlity rate?
 

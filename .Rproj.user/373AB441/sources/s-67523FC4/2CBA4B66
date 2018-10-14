@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "3968485856",
+    "hash" : "0",
     "id" : "2CBA4B66",
-    "lastKnownWriteTime" : 1539523948,
-    "last_content_update" : 1539523949131,
+    "lastKnownWriteTime" : 1539524863,
+    "last_content_update" : 1539524863391,
     "path" : "~/Desktop/JHU-AdvDataScience/Assignments/HW1.Rmd",
     "project_path" : "Assignments/HW1.Rmd",
     "properties" : {
-        "cursorPosition" : "2,23",
-        "scrollLine" : "0"
+        "cursorPosition" : "12,77",
+        "scrollLine" : "3"
     },
     "relative_order" : 4,
     "source_on_save" : false,

@@ -3,10 +3,10 @@ title: "Homework 1: Motor vehicle traffic fatalities"
 output: github_document
 ---
 
-```{r, include = FALSE}
+```{r}
 
 knitr::opts_chunk$set(include = TRUE, comment = NA,
-  fig.path = "HW_figs/HW1-",
+  fig.path = "~/Desktop/JHU-AdvDataScience/HWrendered/HW_figs/HW1-",
   message = FALSE,
   warning = FALSE)
 

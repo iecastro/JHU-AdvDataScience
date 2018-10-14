@@ -5,13 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "2894738059",
+    "hash" : "0",
     "id" : "16D96E",
-    "lastKnownWriteTime" : 1539524032,
-    "last_content_update" : 1539524032,
+    "lastKnownWriteTime" : 1539524897,
+    "last_content_update" : 1539524897,
     "path" : "~/Desktop/JHU-AdvDataScience/HWrendered/HW1.md",
     "project_path" : "HWrendered/HW1.md",
     "properties" : {
+        "cursorPosition" : "0,0",
+        "scrollLine" : "101"
     },
     "relative_order" : 5,
     "source_on_save" : false,
