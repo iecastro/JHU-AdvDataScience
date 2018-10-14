@@ -1,7 +1,18 @@
 ---
 title: "Homework 1: Motor vehicle traffic fatalities"
-output: html_document
+output: github_document
 ---
+
+```{r, include = FALSE}
+
+knitr::opts_chunk$set(include = TRUE, comment = NA,
+  fig.path = "HW_figs/HW1-",
+  message = FALSE,
+  warning = FALSE)
+
+## rmarkdown::render("Assignments/HW1.Rmd", "all", output_dir = "HWrendered/")
+```
+
 
 ## Motivation 
 
@@ -45,13 +56,13 @@ Read in the `accident.dbf` dataset into R from the 2015 FARS dataset and create 
 [foreign](https://cran.r-project.org/web/packages/foreign/index.html)
 R package useful here. 
 
-
-```r
+```{r}
 library(tidyverse)
 library(foreign)
 library(readxl)
 
 acc <- read.dbf("~/Desktop/JHU-AdvDataScience/data/accident.dbf")
+
 ```
 
 ### Problem 1.2 
@@ -62,26 +73,18 @@ in the GLCs dataset for the US and US territories. Create
 a data frame called `states` that contains a state name
 and state GLC code in each row. 
 
-
-```r
+```{r}
 states_glc <- read_excel("~/Desktop/JHU-AdvDataScience/data/FRPP GLC United States.xlsx", 
     col_types = c("text", "text", "numeric", 
         "text", "text", "text", "text", "text", 
         "skip", "skip"))
-```
-
-```
-## Warning in read_fun(path = path, sheet_i = sheet, limits = limits, shim =
-## shim, : Coercing text to numeric in C5 / R5C3: '01'
-```
-
-```r
 terr_glc <- read_excel("~/Desktop/JHU-AdvDataScience/data/FRPP GLC US Territories.xlsx",
     col_types = c("text", "text", "text", 
         "text", "text", "text", "text", "text", 
         "text", "skip"))  ## dataset not needed ??
 
 states <- states_glc %>% select(`State Name`,`State Code`) %>% distinct()
+
 ```
 
 
@@ -92,12 +95,13 @@ data frame using the
 [state dataset](http://stat.ethz.ch/R-manual/R-devel/library/datasets/html/state.html) 
 in R.
 
-
-```r
+```{r}
 region <- cbind(state.abb,state.region)
 
 states <- states %>% filter(`State Name` != "DISTRICT OF COLUMBIA") %>%
   cbind(.,region)
+
+
 ```
 
 ### Problem 1.4
@@ -105,9 +109,10 @@ states <- states %>% filter(`State Name` != "DISTRICT OF COLUMBIA") %>%
 Add the state name, abbreviation and region 
 to the `acc` dataset. 
 
+```{r}
 
-```r
 acc <- merge(acc,states, by.x = "STATE", by.y = "State Code", all.x = TRUE)
+
 ```
 
 ### Problem 1.5
@@ -116,52 +121,14 @@ Add a column to the `acc` dataset containing
 the 2015 population total for each state.
 
 
+```{r}
 
-```r
 pop <- read_csv("~/Desktop/JHU-AdvDataScience/data/nst-est2017-alldata.csv") %>%
   filter(NAME2 != c("UNITED STATES","NORHTEAST REGION", "MIDWEST REGION", "SOUTH REGION",
                   "WEST REGION")) %>% select(NAME2,POPESTIMATE2015)
-```
 
-```
-## Parsed with column specification:
-## cols(
-##   .default = col_integer(),
-##   REGION = col_character(),
-##   DIVISION = col_character(),
-##   NAME = col_character(),
-##   NAME2 = col_character(),
-##   RBIRTH2011 = col_double(),
-##   RBIRTH2012 = col_double(),
-##   RBIRTH2013 = col_double(),
-##   RBIRTH2014 = col_double(),
-##   RBIRTH2015 = col_double(),
-##   RBIRTH2016 = col_double(),
-##   RBIRTH2017 = col_double(),
-##   RDEATH2011 = col_double(),
-##   RDEATH2012 = col_double(),
-##   RDEATH2013 = col_double(),
-##   RDEATH2014 = col_double(),
-##   RDEATH2015 = col_double(),
-##   RDEATH2016 = col_double(),
-##   RDEATH2017 = col_double(),
-##   RNATURALINC2011 = col_double(),
-##   RNATURALINC2012 = col_double()
-##   # ... with 26 more columns
-## )
-```
-
-```
-## See spec(...) for full column specifications.
-```
-
-```
-## Warning in NAME2 != c("UNITED STATES", "NORHTEAST REGION", "MIDWEST
-## REGION", : longer object length is not a multiple of shorter object length
-```
-
-```r
 acc <- merge(acc,pop, by.x ="State Name" , by.y = "NAME2", all.x = TRUE)
+
 ```
 
 
@@ -179,19 +146,15 @@ descending order with the largest number of fatalities
 on the left side and the smallest on the right side. 
 
 
+```{r}
 
-```r
 acc %>% group_by(`State Name`) %>% select(FATALS) %>% summarise(count = sum(FATALS)) %>% filter(`State Name` != "NA") %>%
   ggplot(aes(reorder(`State Name`,-count),count)) + geom_col() +
   labs(x = "", y = "Number of Fatalaties") + theme_minimal() +
   theme(axis.text.x = element_text(angle = 65, size = 4.5))
-```
+
 
 ```
-## Adding missing grouping variables: `State Name`
-```
-
-![plot of chunk unnamed-chunk-6](figure/unnamed-chunk-6-1.png)
 
 Which states contain the most fatalities? 
 
@@ -216,16 +179,14 @@ and summarize your findings.
 **Hint**: Create a plot of fatalities across time. 
 Read about the `as.Date()` function.
 
-
-```r
+```{r}
 acc$date <- as.Date(with(acc,paste(YEAR,MONTH, DAY, sep="-")), "%Y-%m-%d")
 
 acc %>% filter(`State Name` %in% c("TEXAS","CALIFORNIA","FLORIDA")) %>% 
   ggplot(aes(date,FATALS, color = `State Name`)) + geom_line() + 
   scale_color_viridis_d(option="plasma", direction = -1) + theme_minimal()
-```
 
-![plot of chunk unnamed-chunk-7](figure/unnamed-chunk-7-1.png)
+```
 
 If there are states that have differences
 across time, why do you think that is?
@@ -253,8 +214,7 @@ your results.
 add the state abbreviations to the plot. 
 
 
-
-```r
+```{r}
 ## add your code here
 
 acc$state <- ifelse(acc$`State Name` == "NA", "D.C.", acc$`State Name`)
@@ -263,21 +223,8 @@ acc %>% group_by(state) %>%
   mutate(count = sum(FATALS)) %>%
   ggplot(aes(POPESTIMATE2015, count, color = state.region)) + geom_point() +
   geom_text(aes(label = state.abb, check_overlap = TRUE))
-```
 
 ```
-## Warning: Ignoring unknown aesthetics: check_overlap
-```
-
-```
-## Warning: Removed 23 rows containing missing values (geom_point).
-```
-
-```
-## Warning: Removed 23 rows containing missing values (geom_text).
-```
-
-![plot of chunk unnamed-chunk-8](figure/unnamed-chunk-8-1.png)
 
 #### Add a summary of your findings here
 
@@ -292,8 +239,7 @@ Create a data visualization (plot) to explore
 these questions and summarize your results. 
 
 
-
-```r
+```{r}
 ## add your code here
 
 acc %>% group_by(`State Name`) %>%
@@ -301,9 +247,8 @@ acc %>% group_by(`State Name`) %>%
  ggplot(aes(reorder(`State Name`,-rate), rate)) + 
   geom_col(aes(fill = state.region)) + labs(x = "", y = "Fatalaties per 1,000 people") + coord_flip() + scale_fill_viridis_d() +
   theme_minimal() + theme(axis.text.y = element_text(size = 5.5))
-```
 
-![plot of chunk unnamed-chunk-9](figure/unnamed-chunk-9-1.png)
+```
 
 Which states have the highest fatality rate? 
 Which states have the lowest fatlity rate? 
@@ -322,9 +267,9 @@ your results.
 add the state abbreviations on top of your plot. 
 
 
-
-```r
+```{r}
 ## add your code here
+
 ```
 
 #### Add a summary of your findings here

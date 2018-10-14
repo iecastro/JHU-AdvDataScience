@@ -1,7 +1,18 @@
 ---
 title: "Homework 1: Motor vehicle traffic fatalities"
-output: html_document
+output: github_document
 ---
+
+```{r, include = FALSE}
+
+knitr::opts_chunk$set(include = TRUE, comment = NA,
+  fig.path = "HW_figs/HW1-",
+  message = FALSE,
+  warning = FALSE)
+
+## rmarkdown::render("Assignments/HW1.Rmd", "all", output_dir = "HWrendered/")
+```
+
 
 ## Motivation 
 
