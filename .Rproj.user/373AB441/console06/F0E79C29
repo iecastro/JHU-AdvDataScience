@@ -1200,4 +1200,35 @@ Total 17 (delta 8), reused 0 (delta 0)[0K
 [0K[?25h[?25l
 [0;32miecastro@FALK-PH-NSF-L10 [0;35m [0;33m//hd.ad.syr.edu/02/c3964a/Documents/Desktop/JHU-AdvDataScience[0;36m (master)[0m[0K
 $[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hd[0Kd[0K[11G[?25l$ git add -[0K[?25hA[0K[?25l
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/373AB441/sources/prop/F0FE5458.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/373AB441/sources/s-67523FC4/2CBA4B66.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/373AB441/sources/s-67523FC4/2CBA4B66-contents.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25h[?25l
+[0;32miecastro@FALK-PH-NSF-L10 [0;35m [0;33m//hd.ad.syr.edu/02/c3964a/Documents/Desktop/JHU-AdvDataScience[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git c[0K[?25ho[0Km[0Km[0Ki[0Kt[0K[14G[?25l$ git commit -[0K[?25hM[0K[?25l$ git commit -[0K[?25hm[0K[17G[?25l$ git commit -m "[0K[?25hk[0Ke[0Ke[0Kp[0K[23G[?25l$ git commit -m "keep m[0K[?25hd[0K[26G[?25l$ git commit -m "keep md i[0K[?25hn[0K[29G[?25l$ git commit -m "keep md in s[0K[?25ha[0Km[0Ke[0K[34G[?25l$ git commit -m "keep md in same f[0K[?25ho[0Kd[0Kl[0Ke[0Kr[0K[?25l$ git commit -m "keep md in same fodle[0K[?25h[?25l$ git commit -m "keep md in same fodl[0K[?25h[?25l$ git commit -m "keep md in same fod[0K[?25h[?25l$ git commit -m "keep md in same fo[0K[?25h[?25l$ git commit -m "keep md in same f[0K[?25ho[0Kl[0Kd[0Kr[0K"[0K[?25l$ git commit -m "keep md in same foldr[0K[?25h[?25l$ git commit -m "keep md in same fold[0K[?25h[?25l$ git commit -m "keep md in same fol[0K[?25h[?25l$ git commit -m "keep md in same fo[0K[?25h[?25l$ git commit -m "keep md in same f[0K[?25hl[0Kd[0Kr[0K"[0K[?25l
+[0K[?25h[master f4125f1] keep md in same fldr[0K[?25l
+ 6 files changed, 260 insertions(+), 7 deletions(-)[0K
+ create mode 100644 Assignments/HW1.md[0K
+[0K[?25h[?25l
+[0;32miecastro@FALK-PH-NSF-L10 [0;35m [0;33m//hd.ad.syr.edu/02/c3964a/Documents/Desktop/JHU-AdvDataScience[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git p[0K[?25hu[0K[?25l$ git p[0K[?25h[?25l$ git[0K[7G[?25h[?25l$ git o[0K[?25hu[0Ks[0Kh[0K[?25l$ git ous[0K[?25h[?25l$ git ou[0K[?25h[?25l$ git o[0K[?25h[?25l$ git[0K[7G[?25h[?25l$ git p[0K[?25hu[0Ks[0Kh[0K[12G[?25l$ git push o[0K[?25hr[0Ki[0Kg[0Ki[0Kn[0K[19G[?25l$ git push origin m[0K[?25ha[0Ks[0Kt[0Ke[0Kr[0K[?25l
+[0K[?25hEnumerating objects: 26, done.[0K[?25l
+Counting objects:  11% (3/26)[0K[1G[?25h[?25lCounting objects:  15% (4/26)[0K[1G[?25h[?25lCounting objects:  23% (6/26)[0K[1G[?25h[?25lCounting objects:  26% (7/26)[0K[1G[?25h[?25lCounting objects:  34% (9/26)[0K[1G[?25h[?25lCounting objects:  42% (11/26)[0K[1G[?25h[?25lCounting objects:  50% (13/26)[0K[1G[?25h[?25lCounting objects:  53% (14/26)[0K[1G[?25h[?25lCounting objects:  57% (15/26)[0K[1G[?25h[?25lCounting objects:  69% (18/26)[0K[1G[?25h[?25lCounting objects:  76% (20/26)[0K[1G[?25h[?25lCounting objects:  84% (22/26)[0K[1G[?25h[?25lCounting objects:  96% (25/26)[0K[1G[?25hCounting objects: 100% (26/26), done.[0K[?25l
+Delta compression using up to 4 threads.[0K
+Compressing objects:   7% (1/14)[0K[1G[?25h[?25lCompressing objects:  21% (3/14)[0K[1G[?25h[?25lCompressing objects:  28% (4/14)[0K[1G[?25h[?25lCompressing objects:  42% (6/14)[0K[1G[?25h[?25lCompressing objects:  57% (8/14)[0K[1G[?25h[?25lCompressing objects:  64% (9/14)[0K[1G[?25h[?25lCompressing objects:  71% (10/14)[0K[1G[?25h[?25lCompressing objects:  78% (11/14)[0K[1G[?25h[?25lCompressing objects:  85% (12/14)[0K[1G[?25h[?25lCompressing objects:  92% (13/14)[0K[1G[?25hCompressing objects: 100% (14/14), done.[0K[?25l
+Writing objects:  14% (2/14)[0K[1G[?25h[?25lWriting objects:  35% (5/14)[0K[1G[?25h[?25lWriting objects:  57% (8/14)[0K[1G[?25h[?25lWriting objects:  92% (13/14)[0K[1G[?25hWriting objects: 100% (14/14), 2.59 KiB | 14.00 KiB/s, done.[0K[?25l
+Total 14 (delta 8), reused 0 (delta 0)[0K
+[0K[?25h[?25lremote: Resolving deltas:  75% (6/8)[0K[1G[?25hremote: Resolving deltas: 100% (8/8), completed with 7 local objects.[0K[?25l
+[0K[?25hTo https://github.com/iecastro/JHU-AdvDataScience.git[0K[?25l
+   eafd14e..f4125f1  master -> master[0K
+[0K[?25h[?25l
+[0;32miecastro@FALK-PH-NSF-L10 [0;35m [0;33m//hd.ad.syr.edu/02/c3964a/Documents/Desktop/JHU-AdvDataScience[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hd[0Kd[0K[11G[?25l$ git add -[0K[?25ha[0Kl[0Kl[0K[?25l
+[0K[?25herror: did you mean `--all` (with two dashes ?)[0K[?25l
+[0K[?25h[?25l
+[0;32miecastro@FALK-PH-NSF-L10 [0;35m [0;33m//hd.ad.syr.edu/02/c3964a/Documents/Desktop/JHU-AdvDataScience[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ git add -all[0K[?25h[14G[13G[12G[11G[?25l$ git add --all[0K[12G[?25h[?25l
 [0K[?25h
