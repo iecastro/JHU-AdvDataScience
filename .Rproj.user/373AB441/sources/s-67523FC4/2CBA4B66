@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "834202274",
+    "hash" : "3246005280",
     "id" : "2CBA4B66",
-    "lastKnownWriteTime" : 1539525357,
-    "last_content_update" : 1539525358024,
-    "path" : "~/Desktop/JHU-AdvDataScience/Assignments/HW1.Rmd",
-    "project_path" : "Assignments/HW1.Rmd",
+    "lastKnownWriteTime" : 1539525802,
+    "last_content_update" : 1539525802155,
+    "path" : "//hd.ad.syr.edu/02/c3964a/Documents/Desktop/JHU-AdvDataScience/Assignments/template.Rmd",
+    "project_path" : "Assignments/template.Rmd",
     "properties" : {
-        "cursorPosition" : "12,3",
-        "scrollLine" : "3"
+        "cursorPosition" : "17,0",
+        "scrollLine" : "0"
     },
     "relative_order" : 4,
     "source_on_save" : false,
